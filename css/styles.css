@@ -1,0 +1,289 @@
+html {
+	font-family: 'Montserrat';
+}
+
+
+header {
+	height: 50px;
+	color: white;
+	padding-top: 30px;
+	background-color: black;
+}
+
+.contact-form {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+li {
+	text-decoration: none;
+	display: inline;
+}
+
+.header-items {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header-items li {
+	padding: 0 100px 0 100px;
+}
+
+.header-hero {
+	background-color: black;
+	/*padding-bottom: 100px;*/
+	/*padding-top: 80px;*/
+}
+
+.header-hero img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.player {
+	display: block;
+	margin: 0 auto;
+	padding: 100px 0 100px 0;
+}
+
+iframe {
+	width: 80% !important;
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-form .main {
+  font-size: 25px;
+}
+
+.newsletter {
+	height: 300px;
+	background-color: black;
+}
+/*
+ #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-
+      serif; width:100%;}*/
+
+ label {
+ 	color: white;
+ }
+
+ .newletter-sub {
+  color: #888;
+  font-size: 14px;
+  padding-top: 20px;
+ }
+
+ .display-none {
+  display: none;
+}
+
+#mc_embed_signup{
+	text-align: center;
+	/*padding: 20px 0px 20px 0px;*/
+	font-size: 25px;
+}
+
+.about-logo {
+	/*float: right;*/
+	/*width: 50%;*/
+	padding: 30px 30px 30px 10px;
+  position: absolute;
+  right: 0;
+}
+
+.about-hover {
+	float: right;
+  padding-top: 17px;
+  padding-right: 68px;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+#subscribe{
+	display: inline;
+}
+
+footer {
+	background-color: black;
+	height: 100px;
+}
+
+.bio-slide {
+	background-color: white;
+	width: 72%;
+	height: 38%;
+	position: absolute;
+	margin-left: 11%;
+	display: none;
+}
+
+.bio-slide p {
+	font-size: 11px;
+}
+
+.bio-words {
+	padding: 20px 20px 20px 20px;
+}
+
+
+
+#mc_embed_signup form{
+	  box-shadow: none;
+	  border-color: transparent;
+	  /*background-color: black;*/
+	  font-size: 25px;
+
+}
+
+#mc_embed_signup label{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+form {
+  border-color: #dfdfdf;
+  border-width: 1px;
+  border-style: solid;
+  padding: 4.5%;
+  display: block;
+  position: relative;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+  /*background: white*/
+}
+
+label {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 12px;
+   font-family: 'Montserrat';
+
+}
+
+input[type='text'], input[type='email'], textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-width: 0 0 2px 0;
+  border-color: #f1f1f1;
+  background: #f9f9f9;
+  outline: none;
+  padding: 15px 0 15px 10px;
+  font-size: 15px;
+  transition: all ease-in-out .3s;
+  &.error {
+    border-color: red;
+    background: lighten(red, 45%);
+  }
+  &:hover {
+    border-color: #e1e1e1;
+    background: #f1f1f1;
+  }
+  &:focus {
+    background: lighten(#30c3c0, 45%);
+    border-color: #30c3c0;
+  }
+}
+
+.newsletter input[type='email'] {
+    width: 51%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter, footer {
+  background-image: url("../images/background_lite.png");
+  background-position: 78% 29%;
+}
+
+.alert-success {
+  padding-top: 29px;
+}
+
+.back {
+  background-image: url("../images/background_lite.png");
+}
+
+button {
+  border-width: 0;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  font-size: 14px;
+  /*float: right;*/
+  outline: none;
+  outline: 0px;
+  letter-spacing: 1px;
+  transition: all ease-in-out .2s;
+  &:hover {
+    background: darken(#f26e53, 5%);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  &.cancel {
+    background: transparent;
+    color: #dfdfdf;
+    float: left;
+    &:hover {
+      background: #dfdfdf;
+      color: white;
+      box-shadow: none;
+    }
+  }
+}
+
+
+.button {
+  border-width: 0;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  font-size: 14px;
+  /*float: right;*/
+  outline: none;
+  outline: 0px;
+  letter-spacing: 1px;
+  transition: all ease-in-out .2s;
+  &:hover {
+    background: darken(#f26e53, 5%);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  &.cancel {
+    background: transparent;
+    color: #dfdfdf;
+    float: left;
+    &:hover {
+      background: #dfdfdf;
+      color: white;
+      box-shadow: none;
+    }
+  }
+}
+.social-bank {
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.social-meds {
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
